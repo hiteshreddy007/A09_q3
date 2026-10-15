@@ -12,6 +12,7 @@
       --card-bg: #ffffff;
       --text: #1e293b;
       --muted: #64748b;
+      --success: #16a34a;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
     body { background-color: var(--bg); color: var(--text); padding-bottom: 50px; }
@@ -84,6 +85,19 @@
 
     <h2 class="section-title">Upcoming College Events &amp; Schedules</h2>
     <div class="grid" id="eventsGrid">
+      <!-- MODIFIED / ADDED NEW FEATURE: Amazon Placement Drive -->
+      <div class="card" style="border-top-color: #10b981;">
+        <span class="badge" style="background: #dcfce7; color: #16a34a;">New Recruitment Drive</span>
+        <h3>Campus Placement: Amazon SDE</h3>
+        <div class="details">
+          <p><strong>Schedule:</strong> Dec 02 | 9:00 AM</p>
+          <p><strong>Venue:</strong> Placement Block Auditorium</p>
+          <p><strong>Eligibility:</strong> B.Tech All Branches, CGPA &ge; 7.5</p>
+        </div>
+        <button class="btn" style="background: #10b981;" onclick="alert('Application submitted successfully for Amazon SDE!')">Apply Now</button>
+      </div>
+
+      <!-- Event 1 -->
       <div class="card">
         <span class="badge">Technical Fest</span>
         <h3>Hack-a-Thon 2026</h3>
@@ -95,6 +109,7 @@
         <button class="btn" onclick="alert('Registered successfully for Hack-a-Thon!')">Register Now</button>
       </div>
 
+      <!-- Event 2 -->
       <div class="card">
         <span class="badge">Workshop</span>
         <h3>Cloud &amp; DevOps Summit</h3>
@@ -106,6 +121,7 @@
         <button class="btn" onclick="alert('Registered successfully for Cloud Summit!')">Register Now</button>
       </div>
 
+      <!-- Event 3 -->
       <div class="card">
         <span class="badge">Cultural Fest</span>
         <h3>Tarang 2026 Cultural Eve</h3>
